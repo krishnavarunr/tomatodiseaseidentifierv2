@@ -76,7 +76,7 @@ def main():
             # Display results
             col1, col2 = st.columns(2)
             with col1:
-                st.image(img, channels="BGR", use_container_width=True)
+                st.image(img, channels="BGR", width=300)
             with col2:
                 st.subheader("Diagnosis")
                 if "healthy" in disease.lower():
